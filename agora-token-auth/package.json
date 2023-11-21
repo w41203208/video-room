@@ -1,0 +1,19 @@
+{
+  "name": "agora-token-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.ts"
+  },
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
